@@ -240,7 +240,7 @@ a.button:hover
     text-align: center;
 }
 
-section.work article
+.work article
 {
     float: left;
 
@@ -248,13 +248,13 @@ section.work article
     padding-left: 20px;
 }
 
-section.work article:nth-child(odd)
+.work article:nth-child(odd)
 {
     padding-right: 20px;
 }
 
 
-section.work article img
+.work article img
 {
     width: 100%;
     height: auto;
@@ -325,7 +325,6 @@ figcaption p
 {
     margin-bottom: 30px;
     padding: 15px 50px;
-
     text-align: center;
 }
 
@@ -347,7 +346,7 @@ figcaption p
     border-bottom: 3px solid #f63c3c;;
 }
 
-section.cta
+.cta
 {
     padding-top: 60px;
 
@@ -356,14 +355,14 @@ section.cta
     background-color: #f63c3c;
 }
 
-section.cta h2
+.cta h2
 {
     font-weight: 300;
 
     color: #fff;
 }
 
-section.cta p
+.cta p
 {
     font-size: 16px;
     font-weight: 300;
@@ -371,7 +370,7 @@ section.cta p
     color: #fff;
 }
 
-section.contact
+.contact
 {
     padding: 60px;
 
@@ -381,14 +380,22 @@ section.contact
 
 
 
-section.contact p
+.contact p
 {
     margin-bottom: 60px;
 }
 
+.social i {
+    display: block;
+}
+
+.social ul{
+    /*display: block;*/
+}
 
 .social li
 {
+    
     font-weight: 300;
 
     float: left;
@@ -409,10 +416,8 @@ section.contact p
 }
 
 
-.social li a
-{
-    font-size: 30px;
-
+.social li a {
+    font-size: 20px;
     color: #fff;
 }
 
