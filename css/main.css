@@ -146,7 +146,6 @@ nav.navigation li:hover a
     top: 50%;
     left: 50%;
 
-    width: 100%;
     margin-top: 70px;
 
     transform: translate(-50%, -50%);
@@ -372,8 +371,7 @@ figcaption p
 
 .contact
 {
-    padding: 60px;
-
+    padding-top:60px;
     background-color: #fafafa;
 }
 
